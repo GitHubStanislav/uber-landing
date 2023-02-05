@@ -1,0 +1,13 @@
+@mixin button_hover {
+  &:hover {
+    background-image: none;
+    background-color: $colorBlue;
+  }
+}
+
+@mixin link_hover {
+  &:hover {
+    opacity: 0.5;
+    color: $colorBlue;
+  }
+}
