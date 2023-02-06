@@ -821,6 +821,103 @@ nav {
     display: block;
   }
 }
+@media (max-width: 575px) {
+  nav {
+    height: 30px;
+  }
+  .hamburger {
+    top: 17px;
+    width: 23px;
+  }
+  .menu .menu-link {
+    font-size: 16px;
+  }
+  .subheader .subheader-logo {
+    font-size: 15px;
+  }
+  .subheader .subheader-logo .my-logo {
+    width: 25px;
+  }
+  .subheader .subheader-phone {
+    font-size: 14px;
+  }
+  .subheader .subheader-button {
+    width: 90%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 7px;
+    font-size: 12px;
+  }
+  .promo .promo-header {
+    font-size: 35px;
+  }
+  .promo .promo-subheader {
+    font-size: 25px;
+  }
+  .promo .promo-descr {
+    font-size: 14px;
+  }
+  .element-show {
+    font-size: 16px;
+  }
+  .car {
+    min-height: 650px;
+  }
+  .car .black-back {
+    height: 475px;
+    bottom: 230px;
+  }
+  .car .car-img {
+    width: 290px;
+  }
+  .text-advance {
+    font-size: 21px;
+  }
+  .require .require-title {
+    font-size: 18px;
+  }
+  .require .require-list li {
+    font-size: 12px;
+  }
+  .require .require-list li::before {
+    left: -18px;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+  }
+  .footer .footer-social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .footer .col-center-text {
+    width: 100%;
+  }
+  .footer .app-link {
+    margin-top: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .footer .app-link img {
+    width: 75px;
+    height: 25px;
+  }
+  .footer .last-element {
+    font-size: 9px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=style.min.css.map */
