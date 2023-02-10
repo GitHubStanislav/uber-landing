@@ -1,11 +1,13 @@
 "use strict";
+
 // modal window
+
 const modalWindow = document.querySelector(".modal-window");
 const overlay = document.querySelector(".overlay");
 const buttonCloseModal = document.querySelector(".close-modal-window");
-const showModal = document.querySelectorAll(".show-modal");
+const addModalWindowToElements = document.querySelectorAll(".show-modal");
 
-showModal.forEach((e) => {
+addModalWindowToElements.forEach((e) => {
   e.addEventListener("click", (e) => {
     e.preventDefault();
   });
@@ -23,7 +25,7 @@ const addHidedClass = () => {
   document.body.style.overflow = "";
 };
 
-showModal.forEach((elem) => {
+addModalWindowToElements.forEach((elem) => {
   elem.addEventListener("click", showModalWindow);
 });
 
@@ -31,6 +33,7 @@ buttonCloseModal.addEventListener("click", addHidedClass);
 overlay.addEventListener("click", addHidedClass);
 
 //Intersection Observer API
+
 const intersection = document.querySelectorAll(".intersection");
 const lookingFor = new IntersectionObserver(
   (entries, observer) => {
