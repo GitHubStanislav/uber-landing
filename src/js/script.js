@@ -65,3 +65,7 @@ burgerButton.addEventListener("click", () => {
 const showConsoleLog1 = () => {
   console.log('1');
 };
+
+const showConsoleLog2 = () => {
+  console.log('2');
+};
