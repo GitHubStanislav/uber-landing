@@ -61,11 +61,3 @@ burgerButton.addEventListener("click", () => {
   burgerButton.classList.toggle("hamburger-active");
   sideBurgerMenu.classList.toggle("menu-active");
 });
-
-const showConsoleLog1 = () => {
-  console.log('1');
-};
-
-const showConsoleLog2 = () => {
-  console.log('2');
-};
